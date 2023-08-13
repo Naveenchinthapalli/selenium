@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49657" started-at="2023-08-10T21:45:11 IST" finished-at="2023-08-10T21:46:01 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49657" started-at="2023-08-10T21:45:11 IST" finished-at="2023-08-10T21:46:01 IST">
+      <class name="com.orange.Testcase.LoginTestcase">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.orange.Testcase.LoginTestcase@4d3167f4]" name="launchbrowser" is-config="true" duration-ms="3616" started-at="2023-08-10T21:45:12 IST" finished-at="2023-08-10T21:45:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="loginValidation(java.lang.String,java.lang.String)[pri:1, instance:com.orange.Testcase.LoginTestcase@4d3167f4]" name="loginValidation" duration-ms="22056" started-at="2023-08-10T21:45:17 IST" data-provider="login" finished-at="2023-08-10T21:45:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="loginValidation(java.lang.String,java.lang.String)[pri:1, instance:com.orange.Testcase.LoginTestcase@4d3167f4]" name="loginValidation" duration-ms="22372" started-at="2023-08-10T21:45:39 IST" data-provider="login" finished-at="2023-08-10T21:46:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen@1995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orange.Testcase.LoginTestcase@4d3167f4]" name="teardown" is-config="true" duration-ms="104" started-at="2023-08-10T21:46:01 IST" finished-at="2023-08-10T21:46:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange.Testcase.LoginTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
